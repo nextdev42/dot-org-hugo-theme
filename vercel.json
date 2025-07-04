@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "src": "exampleSite/",
+      "use": "@vercel/static"
+    }
+  ],
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.124.1"
+    }
+  },
+  "rootDirectory": "exampleSite"
+}
